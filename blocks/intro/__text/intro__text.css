@@ -1,0 +1,27 @@
+.intro__text {
+  margin: 0;
+  padding-top: 5.799%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .intro__text {
+    padding-top: 5.557%;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 426px) {
+  .intro__text {
+    padding-top: 7%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__text {
+    padding-top: 13.89%;
+  }
+}

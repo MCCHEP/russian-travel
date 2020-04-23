@@ -1,0 +1,40 @@
+@import url(./__lang-link/header__lang-link.css);
+@import url(./__logo/header__logo.css);
+@import url(./__lang-links/header__lang-links.css);
+
+.header {
+  margin: 0 auto;
+  max-width: 92.5%;
+  padding: 2.19% 0 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .header {
+    max-width: 90.626%;
+    padding: 2.74% 0 0;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .header {
+    max-width: 93.75%;
+    padding: 2.74% 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 426px) {
+  .header {
+    padding: 3.66% 0 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    max-width: 90.004%;
+    padding: 3.768% 0 0;
+  }
+}
