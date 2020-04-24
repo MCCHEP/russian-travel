@@ -4,11 +4,40 @@
 @import url(./__title/place__title.css);
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__website/place__website.css);
+@import url(./__text/place__text.css);
 
 .place {
-  padding-top: 80px;
+  padding-top: 8.13%;
   display: grid;
-  grid-template-columns: 460px 484px;
+  grid-template-columns: 46.747% 49.186%;
   grid-template-rows: repeat(2, min-content);
   gap: 48px 40px;
+}
+
+.place:first-of-type {
+  padding-top:0;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .place {
+    padding-top: 8.615%;
+    grid-template-columns: 47.5% 49.186%;
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .place {
+    padding-top: 10%;
+    grid-template-columns: 47.4% 47%;
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    padding-top: 22%;
+    gap: 32px 0;
+    grid-template-columns: 100%;
+  }
 }

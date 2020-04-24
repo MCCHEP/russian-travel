@@ -4,8 +4,26 @@
 @import url(./__title/cover__title.css);
 
 .cover {
-  padding: 92px 3.75% 0;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  margin: 7.188% auto 0;
+  max-width: 92.5%;
+  position: relative;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    max-width: 100%;
+    margin-top: 8.98%;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .cover {
+    margin-top: 11.458%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    margin-top: 20%;
+  }
 }
