@@ -21,14 +21,9 @@
   }
 }
 
-@media screen and (max-width: 767px) and (min-width: 426px) {
+@media screen and (max-width: 767px) {
   .photo-grid__items {
     grid-template-columns: 1fr;
   }
 }
 
-@media screen and (max-width: 425px) {
-  .photo-grid__items {
-    grid-template-columns: 1fr;
-  }
-}

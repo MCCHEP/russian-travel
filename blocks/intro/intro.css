@@ -14,18 +14,21 @@
     max-width: 67.384%;
   }
 }
+@media screen and (max-width: 1023px) {
+  .intro {
+    margin: 0 auto;
+  }
+}
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .intro {
     padding: 11.461% 0 0 0;
-    margin: 0 auto;
     max-width: 93.75%;
   }
 }
 
 @media screen and (max-width: 767px) and (min-width: 426px) {
   .intro {
-    margin: 0 auto;
     padding: 10% 0 0 0;
     max-width: 90%;
   }
@@ -33,7 +36,6 @@
 
 @media screen and (max-width: 425px) {
   .intro {
-    margin: 0 auto;
     padding: 20% 0 0;
     max-width: 90%;
   }
